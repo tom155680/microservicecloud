@@ -6,10 +6,10 @@ spring:
 spring:
     profiles: dev
     application:
-        name: microservicecloud-config-dev
+        name: microservicecloud-config-dev version=1
         
 ---
 spring:
     profiles: test
     application:
-        name: microservicecloud-config-test
+        name: microservicecloud-config-test version=1
